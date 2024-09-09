@@ -1,27 +1,52 @@
-# StorefrontApplication
+# Angular Basics Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+This repository contains the frontend client for the Angular Basics project. It is designed as a training project to practice and demonstrate various Angular functionalities, so it has PrimeNG components and modules for building user interfaces
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Before running this project, ensure you have the following installed on your machine:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/en) (LTS version recommended)
+- [npm](https://www.npmjs.com) (comes with Node.js)
+- Angular CLI (you can install it globally by running npm install -g @angular/cli)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Follow these steps to set up and run the server locally:
 
-## Running unit tests
+### 1. Clone the repository:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone https://github.com/diogovlm/angular-basics-client.git
+```
 
-## Running end-to-end tests
+### 2. Navigate into the project directory:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+cd angular-basics-client
+```
 
-## Further help
+### 3. Install dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+npm install
+```
+
+### 4. Start the server:
+
+```bash
+ng serve
+```
+
+This will start the Angular application on http://localhost:4200/.
+
+## Backend Integration
+
+This client application is designed to work with the backend server hosted in the [Angular Basics Server](https://github.com/diogovlm/angular-basics-server) repository.
+Make sure you have cloned and set up the server repository by following the instructions in the README file before interacting with features that require data fetching.
+
+
+## PrimeNG Usage
+
+This project also incorporates PrimeNG modules to enhance the user interface with pre-built, customizable components. For more information about PrimeNG, visit [PrimeNG Documentation](https://primeng.org).
